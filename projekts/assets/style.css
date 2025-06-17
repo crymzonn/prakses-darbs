@@ -1,0 +1,173 @@
+/* Vispārīgais */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #262626;
+}
+
+a {
+    color: #00376b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigācija */
+
+.nav {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 975px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 32px;
+    color: #262626;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.nav-container nav a {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+    transition: color 0.3s ease;
+}
+
+.nav-container nav a.logout-btn {
+    color: #ed4956;
+}
+
+.nav-container nav a:hover {
+    color: #3897f0;
+}
+
+/* Forma */
+
+.auth-form {
+    background: #fff;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #262626;
+}
+
+.auth-form input {
+    margin-bottom: 12px;
+    padding: 9px 8px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.auth-form button {
+    background-color: #3897f0;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #2e76d6;
+}
+
+.error-msg {
+    background: #fee;
+    border: 1px solid #ed4956;
+    color: #ed4956;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.success-msg {
+    background: #d4edda;
+    border: 1px solid #28a745;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+/* Tabula admin lapai */
+
+.admin-table {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #262626;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #fafafa;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: 14px;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 50px;
+}
+
+/* Instagram form stils */
+
+.instagram-form input, .instagram-form button {
+    font-family: 'Arial', sans-serif;
+}
+
